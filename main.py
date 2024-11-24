@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
-from app.routers import task, user
+from app.routers import task
+from app.routers import user
 
 app = FastAPI()
 
